@@ -7,7 +7,7 @@ model = YOLO("yolov8n.pt")
 video_path = "mv2.mp4"
 cap = cv2.VideoCapture(video_path)
 
-plate_number = os.path.splitext(video_path)[0]
+plate_numbe= os.path.splitext(video_path)[0]
 
 line1_y = 250
 line2_y = 350
